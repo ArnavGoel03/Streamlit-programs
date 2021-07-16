@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
 # Loading the dataset.
-iris_df = pd.read_csv("C:/Users/Asus/Downloads/iris-species.csv")
+iris_df = pd.read_csv("iris-species.csv")
 
 # Adding a column in the Iris DataFrame to resemble the non-numeric 'Species' column as numeric using the 'map()' function.
 # Creating the numeric target column 'Label' to 'iris_df' using the 'map()' function.

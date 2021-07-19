@@ -49,7 +49,7 @@ st.sidebar.title('Iris-species prediction app')
 sb1=st.sidebar.slider('Sepal-Length',float(iris_df['SepalLengthCm'].min()),float(iris_df['SepalLengthCm'].max()))
 sb2=st.sidebar.slider('Sepal width',float(iris_df['SepalWidthCm'].min()),float(iris_df['SepalWidthCm'].max()))
 sb3=st.sidebar.slider('Petal length',float(iris_df['PetalLengthCm'].min()),float(iris_df['PetalLengthCm'].max()))
-sb4=st.sidebar.slider('Petal Wiidth',float(iris_df['PetalWidthCm'].min()),float(iris_df['PetalWidthCm'].max()))
+sb4=st.sidebar.slider('Petal Width',float(iris_df['PetalWidthCm'].min()),float(iris_df['PetalWidthCm'].max()))
 classifer=st.sidebar.selectbox('Classifier',('Support Vector Machine','Logistic Regression','Random Forest Classifier'))
 if st.sidebar.button('Predict') :
 	if classifer=='Support Vector Machine' :
